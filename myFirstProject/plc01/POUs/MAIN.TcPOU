@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.9">
+  <POU Name="MAIN" Id="{3c6388f7-e206-4478-ac30-7b1468125055}" SpecialFunc="None">
+    <Declaration><![CDATA[PROGRAM MAIN
+VAR
+	bInit: BOOL;
+	sStart: STRING;
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[//Develolep BY Kauê Koschitz Roratto
+//https://github.com/KaueKoschitzRoratto
+//https://www.linkedin.com/in/kauekoschitzroratto/
+//kaue.roratto@outlook.com.br
+
+IF bInit THEN
+	sStart:= 'project Started';
+END_IF
+]]></ST>
+    </Implementation>
+    <LineIds Name="MAIN">
+      <LineId Id="8" Count="0" />
+      <LineId Id="7" Count="0" />
+      <LineId Id="9" Count="1" />
+      <LineId Id="6" Count="0" />
+      <LineId Id="12" Count="0" />
+      <LineId Id="16" Count="1" />
+      <LineId Id="11" Count="0" />
+    </LineIds>
+  </POU>
+</TcPlcObject>
